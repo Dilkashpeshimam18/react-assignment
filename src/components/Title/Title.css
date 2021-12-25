@@ -1,0 +1,6 @@
+.title{
+    display: flex;
+    flex: 0.95;
+    flex-direction: column;
+    margin-right:5px ;
+}

@@ -1,0 +1,17 @@
+.title2{
+    display: flex;
+    background-color: #E75480;
+    justify-content: center;
+    height: 50px;
+    margin-top: 25px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 8px 5px #888888
+}
+.title2__text{
+    text-align: center;
+    color: white;
+    font-size: 13px;
+    font-family: 200;
+    
+
+}

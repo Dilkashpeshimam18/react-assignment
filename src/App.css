@@ -1,0 +1,17 @@
+
+.main__body{
+  display: flex;
+ 
+  
+}
+.content{
+  flex: 1;
+  flex-direction: column;
+}
+@media screen and (max-width: 500px) {
+  
+  .main__body{
+    flex-direction: column;
+  }
+
+ }

@@ -1,0 +1,26 @@
+.sidebarItems{
+    display: flex;
+    flex-direction: column;
+  
+    padding: 2px 2px;
+}
+.sidebar__name{
+    flex: 1;
+    color: white;
+    cursor: pointer;
+    margin-left: 20px;
+    font-weight: 500;
+    font-size: 12px;
+    text-decoration: underline;
+    text-underline-position: under;
+    text-decoration-style: solid;
+}
+.sidebarItems>hr{
+    height: 1;
+    border: none solid white;
+    width: 30%;
+    left: 0;
+    
+  
+
+}

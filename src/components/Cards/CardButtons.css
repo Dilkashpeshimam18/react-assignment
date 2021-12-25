@@ -1,0 +1,42 @@
+.card__buttons{
+    display: flex;
+    flex: 1;
+    align-items: flex-start;
+    text-align: center;
+    height: 43px;
+    border-top: 1px solid lightgray;
+    cursor: pointer;
+}
+.card__buttons.selected{
+    background-color: #E75480;
+    color: white;
+}
+.button__name{
+    font-size: 18px;
+    font-weight: 600;
+    padding: 10px;
+    margin-left: 5px;
+}
+.button__icon>.MuiSvgIcon-root{
+    font-size: 30px;
+  padding-top: 5px;
+  padding-left: 5px;
+
+}
+@media screen and (max-width: 500px){
+    .button__name{
+        font-size: 13px;
+        font-weight: 600;
+        padding: 10px;
+        margin-left: 5px;
+    }
+    .button__icon>.MuiSvgIcon-root{
+        font-size: 25px;
+      padding-top: 5px;
+      padding-left: 5px;
+    
+    
+}
+
+}
+

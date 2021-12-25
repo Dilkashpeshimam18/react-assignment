@@ -1,0 +1,44 @@
+.sidebar{
+    display: flex;
+    flex: 0.05;
+    height: 815px;
+    flex-direction: column;
+    background-color: #B65FCF;
+    border-radius: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+  
+    
+}
+.dashboard{
+    color: white;
+    align-items: center;
+    font-weight: 450;
+    padding: 2px 50px;
+}
+.sidebar__title>hr{
+    height: 0px;
+    border: 1px solid white;
+    width: 50%;
+    
+}
+.sidebar__title{
+    display: flex;
+    flex-direction: column;
+
+}
+@media screen and (max-width: 500px) {
+  
+    .sidebar{
+        flex: 1;
+        height: 800px;
+    }
+  
+    .sidebar__title{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    
+    }
+   
+   }
